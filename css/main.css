@@ -1,0 +1,45 @@
+.block-heigth{
+	height: 100px;
+}
+
+/*orden especifico para organizar los estilos 
+cmd + e = que se convierta todo en minusculas las letras 
+*/
+
+@media only screen and (min-width: 1px) and (max-width: 499px){
+	.first{background-color:#FBE9E7;}
+	.second{background-color:#FFCCBC; }
+	.third{ background-color:#FFAB91; }
+	.fourth{background-color:#FF8A65;}
+	.fifth{ background-color:#FF7043; }
+	.sixth{background-color:#FF5722;}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1500px){
+	.first{background-color:#CDDC39;}
+	.second{background-color:#D4E157; }
+	.third{ background-color:#DCE775; }
+	.fourth{background-color:#E6EE9C;}
+	.fifth{ background-color:#F0F4C3; }
+	.sixth{background-color:#F9FBE7;}
+}
+
+
+@media only screen and (min-width: 700px){
+	.first{background-color:#E0F7FA;}
+	.second{background-color:#B2EBF2; }
+	.third{ background-color:#80DEEA; }
+	.fourth{background-color:#4DD0E1;}
+	.fifth{ background-color:#26C6DA; }
+	.sixth{background-color:#00BCD4;}
+}
+
+
+@media only screen and (min-width: 600px) and (max-width:699px){
+	.first{background-color: #EDE7F6;}
+	.second{background-color:#D1C4E9; }
+	.third{ background-color:#B39DDB; }
+	.fourth{background-color:#9575CD;}
+	.fifth{ background-color:#7E57C2; }
+	.sixth{background-color:#673AB7;}
+}
